@@ -29,9 +29,10 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://*.vercel.app",
+        "https://rugcheck-chi.vercel.app",
         settings.frontend_url,
     ],
+    allow_origin_regex=r"https://rugcheck.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
