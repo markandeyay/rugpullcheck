@@ -1,5 +1,7 @@
 # RugCheck
 
+https://rugcheck-chi.vercel.app/
+
 Token security analyzer that scores rug pull risk (0-100) using on-chain signals.
 
 Paste a token contract address, select a chain, and get an instant risk score with explainable signals covering holder concentration, liquidity, ownership, mintability, and honeypot indicators.
